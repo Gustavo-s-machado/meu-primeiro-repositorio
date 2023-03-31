@@ -92,7 +92,7 @@ body {
 
 .formbox {
     font-family: Arial, Helvetica, sans-serif;
-    color: #E6005A;
+    color: #e5668a;
     width: 30vw;
     height: 45vh;
     display: flex;
@@ -109,15 +109,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5vh;
+    margin-top: 2vh;
 }
 
 .formbox p{
     font-weight: 800;
     margin: 0;
     display: flex;
-    justify-content: flex-start;
-    margin-right: 30%;
 }
 
 .formbox input{
@@ -127,5 +125,16 @@ body {
     text-align: center;
     border: #32B9CD 2px solid;
     border-radius: 10px;
+}
+
+
+.formbox button{
+    text-decoration: none;
+    background-color: #E6005A;
+    color: white;
+    border: none;
+    width: 7vw;
+    border-radius: 10px;
+    padding: 1.5vh;
 }
 
